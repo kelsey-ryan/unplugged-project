@@ -149,7 +149,7 @@ address{
 }
 
 .content-wrapper{
-  width: 90%;
+  max-width: 320px;
   margin: 50px 0;
 }
 
@@ -260,6 +260,10 @@ footer .copyright{
   background: url('../img/jake-melara-30679-unsplash.jpg') center no-repeat #333;
   background-size: cover;
   min-height:500px;
+}
+
+.hero-area h1{
+  width:100%;
 }
 
 aside{
@@ -706,6 +710,7 @@ input[type=button]{
 
     .content-wrapper {
       max-width: 960px;
+      margin: 50px 0;
     }
 
     h2{
@@ -723,8 +728,10 @@ input[type=button]{
 
     /* Hero Area*/
     .hero-area h1{
-      max-width: 60%;
+      max-width: 80%;
       font-size:3.75em;
+      margin:0;
+      padding:0;
     }
 
     /* Aside */
